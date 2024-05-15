@@ -1,26 +1,22 @@
-package Atividade;
+package SegundaAtividade;
 
 public class Hexagono extends Shape{
     private double lado;
 
-    // Construtor
     public Hexagono(double lado) {
         this.lado = lado;
     }
 
-    // Implementação dos métodos abstratos
     @Override
-    public String getName() {
+    public String getNome() {
         return "Hexágono";
     }
-
     @Override
-    public double calculateArea() {
+    public double calcularArea() {
         return (3 * Math.sqrt(3) * lado * lado) / 2;
     }
-
     @Override
-    public double calculatePerimeter() {
+    public double calcularPerimetro() {
         return 6 * lado;
     }
 }

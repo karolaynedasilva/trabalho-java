@@ -1,26 +1,22 @@
-package Atividade;
+package SegundaAtividade;
 
 public class Circulo extends Shape{
     private double raio;
 
-    // Construtor
     public Circulo(double raio) {
         this.raio = raio;
     }
 
-    // Implementação dos métodos abstratos
     @Override
-    public String getName() {
+    public String getNome() {
         return "Círculo";
     }
-
     @Override
-    public double calculateArea() {
+    public double calcularArea() {
         return Math.PI * raio * raio;
     }
-
     @Override
-    public double calculatePerimeter() {
+    public double calcularPerimetro() {
         return 2 * Math.PI * raio;
     }
 }

@@ -1,30 +1,30 @@
-package Atividade;
+package SegundaAtividade;
 
 public class Main {
     public static void main(String[] args) {
-        Shape retangulo = new Retangulo(5, 10);
-        System.out.println("Nome: " + retangulo.getName());
-        System.out.println("Área: " + retangulo.calculateArea());
-        System.out.println("Perímetro: " + retangulo.calculatePerimeter());
+        Shape retangulo = new Retangulo(10, 15);
+        System.out.println("Nome da Forma: " + retangulo.getNome());
+        System.out.println("Área Calculada: " + retangulo.calcularArea());
+        System.out.println("Perímetro total: " + retangulo.calcularPerimetro());
 
-        Shape circulo = new Circulo(5);
-        System.out.println("\nNome: " + circulo.getName());
-        System.out.println("Área: " + circulo.calculateArea());
-        System.out.println("Perímetro: " + circulo.calculatePerimeter());
+        Shape circulo = new Circulo(10);
+        System.out.println("\nNome da Forma: " + circulo.getNome());
+        System.out.println("Área Calculada: " + circulo.calcularArea());
+        System.out.println("Perímetro total: " + circulo.calcularPerimetro());
 
-        Shape losango = new Losango(6, 8);
-        System.out.println("\nNome: " + losango.getName());
-        System.out.println("Área: " + losango.calculateArea());
-        System.out.println("Perímetro: " + losango.calculatePerimeter());
+        Shape losango = new Losango(10, 8);
+        System.out.println("\nNome da Forma: " + losango.getNome());
+        System.out.println("Área Calculada: " + losango.calcularArea());
+        System.out.println("Perímetro total: " + losango.calcularPerimetro());
 
-        Shape hexagono = new Hexagono(6);
-        System.out.println("\nNome: " + hexagono.getName());
-        System.out.println("Área: " + hexagono.calculateArea());
-        System.out.println("Perímetro: " + hexagono.calculatePerimeter());
+        Shape hexagono = new Hexagono(8);
+        System.out.println("\nNome da Forma: " + hexagono.getNome());
+        System.out.println("Área Calculada: " + hexagono.calcularArea());
+        System.out.println("Perímetro total: " + hexagono.calcularPerimetro());
 
-        Shape pentagono = new Pentagono(7);
-        System.out.println("\nNome: " + pentagono.getName());
-        System.out.println("Área: " + pentagono.calculateArea());
-        System.out.println("Perímetro: " + pentagono.calculatePerimeter());
+        Shape pentagono = new Pentagono(5);
+        System.out.println("\nNome da Forma: " + pentagono.getNome());
+        System.out.println("Área Calculada: " + pentagono.calcularArea());
+        System.out.println("Perímetro total: " + pentagono.calcularPerimetro());
     }
 }

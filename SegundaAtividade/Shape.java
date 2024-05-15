@@ -1,9 +1,9 @@
-package Segundaatividade;
+package SegundaAtividade;
 
 public abstract class Shape {
-    public abstract String getName();
-    public abstract double calculateArea();
-    public abstract double calculatePerimeter();
+    public abstract String getNome();
+    public abstract double calcularArea();
+    public abstract double calcularPerimetro();
     // public String nome;
     // public double comprimento;
     // public double largura;

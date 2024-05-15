@@ -1,4 +1,4 @@
-package Atividade;
+package SegundaAtividade;
 
 public class Retangulo extends Shape{
     private double comprimento;
@@ -9,17 +9,17 @@ public class Retangulo extends Shape{
         this.largura = largura;
     }
     @Override
-    public String getName() {
+    public String getNome() {
         return "Retângulo";
     }
 
     @Override
-    public double calculateArea() {
+    public double calcularArea() {
         return comprimento * largura;
     }
 
     @Override
-    public double calculatePerimeter() {
+    public double calcularPerimetro() {
         return 2 * (comprimento + largura);
     }
 }

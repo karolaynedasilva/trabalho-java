@@ -1,4 +1,4 @@
-package Atividade;
+package SegundaAtividade;
 
 public class Losango extends Shape{
     private double diagonalMaior;
@@ -10,17 +10,15 @@ public class Losango extends Shape{
     }
 
     @Override
-    public String getName() {
+    public String getNome() {
         return "Losango";
     }
-
     @Override
-    public double calculateArea() {
+    public double calcularArea() {
         return (diagonalMaior * diagonalMenor) / 2;
     }
-
     @Override
-    public double calculatePerimeter() {
+    public double calcularPerimetro() {
         return 4 * Math.sqrt((diagonalMaior * diagonalMaior + diagonalMenor * diagonalMenor) / 4);
     }
 }
